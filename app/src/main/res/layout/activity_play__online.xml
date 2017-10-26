@@ -6,7 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.musicapp.Play_Online">
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_online"
+        style="@style/heading"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,4 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="buy songs"/>
+    <Button
+        android:id="@+id/backToLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Library"
+        android:textSize="24sp" />
 </LinearLayout>

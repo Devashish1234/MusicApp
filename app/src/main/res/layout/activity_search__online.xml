@@ -4,11 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.musicapp.Search_Online">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Here search for online songs\n\nHere use of picasso will be implemented"
+        android:text="@string/search_online"
+        style="@style/heading"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here search for online songs\n\nHere use of PICASSO will be implemented"
         style="@style/categoryStyle"/>
+    <Button
+        android:id="@+id/backToLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Library"
+        android:textSize="24sp" />
 </LinearLayout>

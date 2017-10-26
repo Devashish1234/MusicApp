@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MusicApp</string>
+    <string name="Library">Song Library</string>
+    <string name="artist_albums">Artist And Albums</string>
+    <string name="buy_songs">Buy Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play_online">Play Online</string>
+    <string name="playlist">Playlist</string>
+    <string name="search">Search</string>
+    <string name="search_online">Search Online</string>
 </resources>
